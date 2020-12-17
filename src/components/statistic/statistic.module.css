@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.statistics {
+  margin: 30px 0;
+  width: 400px;
+  background-color: rgb(218, 217, 235);
+  box-shadow: 0 0 10px rgb(206, 220, 250);
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.statsList {
+  display: flex;
+  list-style: none;
+}
+.item {
+  width: 80px;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+.item span {
+  display: block;
+  margin-bottom: 10px;
+}
